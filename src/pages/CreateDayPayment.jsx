@@ -25,7 +25,7 @@ export default function CreateDayPayment() {
       createDayService.getByUserId(userId).then(result => setCreateDays(result.data.data))
     
       
-      toast.error("Ödenecek Bir Gün Bulunmamaktadır")
+    
    
     
 
